@@ -1,0 +1,14 @@
+//html asset requests
+const findTarget= document.getElementById("findTarget");
+
+//action center
+findTarget.addEventListener('click', ()=>{
+	if(tCC1.value <1){
+		tCC1.value="e";
+		alert("Invalid entry, please input your Town Condition Card again.")
+	}else if(tCC1.value >18){
+		tCC1.value="e";
+		alert("Invalid entry, please input your Town Condition Card again. ")
+	}else{
+targetScore.value= parseInt(tCC1.value) + parseInt(tCC2.value) + parseInt(tCC3.value)
+}});
