@@ -7,7 +7,12 @@
 <body>
 <h1>Sprawlopolis Score Calculator</h1>
 <div>
-<h2>Town Condition Cards</h2>
+<h2>Game Setup</h2>
+<h3>Dificulty setting</h3>
+<input type="radio" name="eMode" value="Easy Mode" id="eMode">
+<br><input type="radio" name="nMode" value="Normal Mode" id="nMode">
+<br><input type="radio" name="hMode" value="Hard Mode" id="hMode">
+<h3>Town Condition Cards</h3>
 <input type="number" name="tCC1" size=".5" id="tCC1">
 <input type="number" name="tCC2" size=".5" id="tCC2">
 <input type="number" name="tCC3" id="tCC3">
@@ -15,6 +20,37 @@
 <br><input type="text" name="targetScore" id="targetScore">
  is the score to meet or beat.
 </div>
-<script  src='scJS.js'></script>
+<div>
+<br>
+<h2>Player(s) Score<h2>
+<p>To be performed at end of game</p>
+<h3>Zoning Values</h3>
+Residential:<input type="number" name="resVal" id="resValue">
+<br>Industrial: <input type="number" name="Industrial" id="indVal">
+<br>Comercial: <input type="number" name="comercial" id="comVal">
+<br>Recreational: <input type="number" name="recreation" id="recVal">
+<br>
+</div>
+<div>
+<h3>Condition Card Results</h3>
+card 1: <input type="number" name="ccr1" id="ccR1">
+<br>card 2: <input type="number" name="ccr2" id="ccR2">
+<br>card 3: <input type="number" name="ccr3" id="ccR3">
+<h3>Number of Roads</h3>
+<br><input type="number" name="roads" id="Roads">
+</div>
+<div>
+<h3>Aditional Values</h3>
+Point of Intrest Bonus: <input type="number" name="PoI" id="poiA">
+<br> Construction Bonus: <input type="number" name="Constr" id="Constr">
+ <br>Wrecktar: <input type="number" name="kaiju" id="kaiju">
+</div>
+<div>
+<button name="eGame" value="Evaluate Game" id="eGame">Evaluate Game</button>
+<br><input type="number" name="playerTotal" id="playerTotal">
+ completion % <input type="number" name="graded" id="playerGraded"> 
+<br><button name="reset" value="Reset Values" type="reset">New Game</button>
+</div>
+script  src='scJS.js'></script>
 </body>
 </html>
