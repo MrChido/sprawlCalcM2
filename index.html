@@ -13,42 +13,40 @@
 <br>For a normal game difficulty, do score negative points for roads.
 <br>For a harder game difficulty, do score negative points for roads, and only score your largest zone cluster. </p>
 <h3>Town Condition Cards</h3>
-<input type="number" name="tCC1" size=".5" id="tCC1">
-<input type="number" name="tCC2" size=".5" id="tCC2">
-<input type="number" name="tCC3" id="tCC3">
+<input type="number" name="tCC1" size=".5" id="tCC1"placeholder="First Card">
+<input type="number" name="tCC2" size=".5" id="tCC2"placeholder="Second Card">
+<input type="number" name="tCC3" id="tCC3"placeholder="Third Card">
 <br><button name="tCCalc" id="findTarget" type="submit">Calculate Target Score</button>
 <br><input type="text" name="targetScore" id="targetScore">
- is the score to meet or beat.
-</div>
+<div id="mob"> is the score to meet or beat.</div>
 <div>
 <br>
 <h2>Player(s) Score</h2>
 <p>To be performed at end of game</p>
 <h3>Zoning Values</h3>
-Residential:<input type="number" name="resVal" id="resVal">
-<br>Industrial: <input type="number" name="Industrial" id="indVal">
-<br>Commercial: <input type="number" name="comercial" id="comVal">
-<br>Recreational: <input type="number" name="recreation" id="recVal">
-<br>
+<input type="number" name="resVal" id="resVal" placeholder="Residential">
+<br><input type="number" name="Industrial" id="indVal" placeholder="Industrial">
+<br><input type="number" name="comercial" id="comVal" placeholder="Commercial">
+<br><input type="number" name="recreation" id="recVal" placeholder="Recreational">
 </div>
 <div>
 <h3>Condition Card Results</h3>
-card 1: <input type="number" name="ccr1" id="ccR1">
-<br>card 2: <input type="number" name="ccr2" id="ccR2">
-<br>card 3: <input type="number" name="ccr3" id="ccR3">
+<input type="number" name="ccr1" id="ccR1"placeholder="First Condition">
+<br><input type="number" name="ccr2" id="ccR2"placeholder="Second Condition">
+<br><input type="number" name="ccr3" id="ccR3"placeholder="Third Condition">
 <h3>Number of Roads</h3>
-<input type="number" name="roads" id="Roads">
+<input type="number" name="roads" id="Roads"placeholder="Roads">
 </div>
 <div>
 <h3>Additional Values</h3>
-Point of Interest Bonus: <input type="number" name="PoI" id="poiA">
-<br> Construction Bonus: <input type="number" name="Constr" id="Constr">
- <br>Wrecktar: <input type="number" name="kaiju" id="kaiju">
+<input type="number" name="PoI" id="poiA"placeholder="Point of Interest">
+<input type="number" name="Constr" id="Constr"placeholder="Conditon Issues">
+ <input type="number" name="kaiju" id="kaiju"placeholder="Kaiju">
 </div>
 <div>
 <button name="eGame" value="Evaluate Game" id="eGame">Evaluate Game</button>
 <br><input type="number" name="playerTotal" id="playerTotal">
- completion % <input type="number" name="graded" id="playerGraded"> 
+ <div id="percentage">completion %</div> <input type="number" name="graded" id="playerGraded"> 
 <br><button name="reset" value="Reset Values" type="reset" id="nG">New Game</button>
 </div>
 <script  src='scJS.js'></script>

@@ -16,15 +16,15 @@ parseInt(kaiju.value)+parseInt(Constr.value)
 playerGraded.value=parseInt(playerTotal.value)/parseInt(targetScore.value)*100;
 });
 
-newGame.addEventListener('click'()=>{
+newGame.addEventListener('click',()=>{
 tCC1.value="0";
 tCC2.value="0";
 tCC3.value="0";
 targetScore.value="0";
-resVal.value="0";
-indVal.value="0";
-comVal.value="0";
-recVal.value="0";
+resVal.value="";
+indVal.value="";
+comVal.value="";
+recVal.value="";
 ccR1.value="0";
 ccR2.value="0";
 ccR3.value="0";

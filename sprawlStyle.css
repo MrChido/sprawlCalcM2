@@ -19,9 +19,11 @@ width:400px;
 }
 h2{
 margin-bottom: -.25em; 
+color: #08e8de;
 }
 h3{
 margin-bottom: 6px;
+color: #08e8de;
 }
 #eGame{
 margin-top: 20px;
@@ -29,4 +31,18 @@ margin-bottom: 10px;
 }
 #nG{
 margin-top: 10px;
+}
+body{
+background-image: url("./IMG_1143.jpg");
+background-size: cover;
+background-color: black;
+}
+p{
+color: #08e8de;
+}
+#mob{
+color: #08e8de;
+}
+#percentage{
+color:#0838de;
 }
