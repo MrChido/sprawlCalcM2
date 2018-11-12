@@ -7,7 +7,6 @@
 </head>
 <body>
 <img src="./sC.jpg" alt="Sprawlopolis Calculator"id="SCtitlePic">
-<h1>Sprawlopolis Score Calculator</h1>
 <div>
 <h2>Game Setup</h2>
 <p>For an easier game difficulty, do not score negative points for roads.
@@ -23,7 +22,7 @@
 </div>
 <div>
 <br>
-<h2>Player(s) Score<h2>
+<h2>Player(s) Score</h2>
 <p>To be performed at end of game</p>
 <h3>Zoning Values</h3>
 Residential:<input type="number" name="resVal" id="resVal">
