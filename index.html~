@@ -46,9 +46,12 @@
 <div>
 <button name="eGame" value="Evaluate Game" id="eGame">Evaluate Game</button>
 <br><input type="number" name="playerTotal" id="playerTotal">
- completion % <input type="number" name="graded" id="playerGraded"> 
+ <div id="percentage">completion %</div> <input type="number" name="graded" id="playerGraded"> 
 <br><button name="reset" value="Reset Values" type="reset" id="nG">New Game</button>
 </div>
+<br>
+<p>Sprawlopolis game, references, and scoring mechanics are property of ButtonShy games.
+<br> app coding, and HTML design is by Caleb Campbell.</p>
 <script  src='scJS.js'></script>
 </body>
 </html>

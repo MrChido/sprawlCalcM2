@@ -35,10 +35,14 @@ margin-top: 10px;
 body{
 background-image: url("./IMG_1143.jpg");
 background-size: cover;
+background-color: black;
 }
 p{
 color: #08e8de;
 }
 #mob{
 color: #08e8de;
+}
+#percentage{
+color:#08e8de;
 }
