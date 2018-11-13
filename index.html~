@@ -24,34 +24,44 @@
 <h2>Player(s) Score</h2>
 <p>To be performed at end of game</p>
 <h3>Zoning Values</h3>
-<input type="number" name="resVal" id="resVal" placeholder="Residential">
-<br><input type="number" name="Industrial" id="indVal" placeholder="Industrial">
-<br><input type="number" name="comercial" id="comVal" placeholder="Commercial">
-<br><input type="number" name="recreation" id="recVal" placeholder="Recreational">
+<label for="resVal">Residential</label>
+<input type="number" name="resVal" id="resVal">
+<br><label for="indVal">Industrial</label>
+<input type="number" name="Industrial" id="indVal">
+<br><label for="comVal">Commercial</label>
+<input type="number" name="comercial" id="comVal">
+<br><label for="recVal">Recreational</label>
+<input type="number" name="recreation" id="recVal" >
 </div>
 <div>
 <h3>Condition Card Results</h3>
-<input type="number" name="ccr1" id="ccR1"placeholder="First Condition">
-<br><input type="number" name="ccr2" id="ccR2"placeholder="Second Condition">
-<br><input type="number" name="ccr3" id="ccR3"placeholder="Third Condition">
+<label for="ccR1">First Condition</label>
+<input type="number" name="ccr1" id="ccR1">
+<br><label for="ccR2">Second Condition</label>
+<input type="number" name="ccr2" id="ccR2">
+<br><label for="ccR3">Third Condition</label>
+<input type="number" name="ccr3" id="ccR3">
 <h3>Number of Roads</h3>
-<input type="number" name="roads" id="Roads"placeholder="Roads">
+<input type="number" name="roads" id="Roads">
 </div>
 <div>
 <h3>Additional Values</h3>
-<input type="number" name="PoI" id="poiA"placeholder="Point of Interest">
-<input type="number" name="Constr" id="Constr"placeholder="Conditon Issues">
- <input type="number" name="kaiju" id="kaiju"placeholder="Kaiju">
+<label for="poiA">Point of Interest</label>
+<input type="number" name="PoI" id="poiA">
+<br><label for="Constr">Construction Issues</label>
+<input type="number" name="Constr" id="Constr">
+<br><label for="Kaiju">Kaiju</label> 
+ <input type="number" name="kaiju" id="kaiju">
 </div>
 <div>
 <button name="eGame" value="Evaluate Game" id="eGame">Evaluate Game</button>
 <br><input type="number" name="playerTotal" id="playerTotal">
- <div id="percentage">completion %</div> <input type="number" name="graded" id="playerGraded"> 
+ <br><label for="playerGraded">Completion % </label><input type="number" name="graded" id="playerGraded"> 
 <br><button name="reset" value="Reset Values" type="reset" id="nG">New Game</button>
 </div>
 <br>
-<p id="appCredits">Sprawlopolis game, references, and scoring mechanics are property of ButtonShy games.
-<br> app coding, and HTML design is by Caleb Campbell.</p>
+<p id="appCredits">Sprawlopolis game, references, and scoring mechanics are property of <a href="https://buttonshygames.com/">Button Shy games.</a>
+<br> app coding, and HTML design is by <a href="https://github.com/MrChido" target="blank">Caleb Campbell</a>.</p>
 <script  src='scJS.js'></script>
 </body>
 </html>

@@ -46,3 +46,9 @@ color: #08e8de;
 #percentage{
 color:#08e8de;
 }
+#appCredits{
+font-size: 10px;}
+
+label{
+	font-size: 18px;
+color: #08e8de;}
