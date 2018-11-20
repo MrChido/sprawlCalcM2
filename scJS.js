@@ -7,6 +7,7 @@ const randiRule= document.getElementById("randiRules");
 //action center
 findTarget.addEventListener('click', ()=>{
 	targetScore.value= parseInt(tCC1.value) + parseInt(tCC2.value) + parseInt(tCC3.value)
+//the Yugioh cards used in these easter eggs are property of Konami. I just inserted them for giggles.
 	if (tCC1.value =="18" && tCC2.value =="16" && tCC3.value == "17") {
 		SCtitlePic.src="./eeg/eeg4.jpg"}
 	if (tCC1.value =="8"&& tCC2.value =="3"&& tCC3.value =="2") {
