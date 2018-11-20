@@ -2,6 +2,7 @@
 const findTarget= document.getElementById("findTarget");
 const gameEnd=document.getElementById("eGame");
 const newGame= document.getElementById("nG");
+const randiRule= document.getElementById("randiRules");
 
 //action center
 findTarget.addEventListener('click', ()=>{
@@ -34,4 +35,11 @@ Constr.value="0";
 kaiju.value="0";
 playerTotal.value="0";
 playerGraded.value="0";
+});
+
+randiRule.addEventListener('click',()=>{
+	tCC1.value= parseInt(Math.random()*(18-1)+1);
+	tCC2.value =parseInt(Math.random()*(18-1)+1);
+	tCC3.value=parseInt(Math.random()*(18-1)+1);
+	targetScore.value = parseInt(tCC1.value)+parseInt(tCC2.value)+parseInt(tCC3.value);
 });

@@ -17,8 +17,10 @@
 <input type="number" name="tCC2" size=".5" id="tCC2"placeholder="Second Card">
 <input type="number" name="tCC3" id="tCC3"placeholder="Third Card">
 <br><button name="tCCalc" id="findTarget" type="submit">Calculate Target Score</button>
+<button name="randiRules" id="randiRules" type="submit">Random Rules</button>
 <br><input type="text" name="targetScore" id="targetScore">
-<div id="mob"> is the score to meet or beat.</div>
+<div><p id="mob"> is the score to meet or beat.
+<br>If using the random feature, keep pressing until you have 3 different card values.</p></div>
 <div>
 <br>
 <h2>Player(s) Score</h2>
@@ -60,7 +62,7 @@
 <br><button name="reset" value="Reset Values" type="reset" id="nG">New Game</button>
 </div>
 <br>
-<p id="appCredits">Sprawlopolis game, references, and scoring mechanics are property of <a href="https://buttonshygames.com/">Button Shy games.</a>
+<p id="appCredits">Sprawlopolis game, references, and scoring mechanics are property of <a href="https://buttonshygames.com/" target="blank">Button Shy games.</a>
 <br> app coding, and HTML design is by <a href="https://github.com/MrChido" target="blank">Caleb Campbell</a>.</p>
 <script  src='scJS.js'></script>
 </body>
