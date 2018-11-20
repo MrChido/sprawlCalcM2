@@ -7,6 +7,16 @@ const randiRule= document.getElementById("randiRules");
 //action center
 findTarget.addEventListener('click', ()=>{
 	targetScore.value= parseInt(tCC1.value) + parseInt(tCC2.value) + parseInt(tCC3.value)
+	if (tCC1.value =="18" && tCC2.value =="16" && tCC3.value == "17") {
+		SCtitlePic.src="./eeg/eeg4.jpg"}
+	if (tCC1.value =="8"&& tCC2.value =="3"&& tCC3.value =="2") {
+		SCtitlePic.src="./eeg/eeg3.png"}
+	if (tCC1.value == "2" && tCC2.value=="9"&& tCC3.value =="1") {
+		SCtitlePic.src="./eeg/eeg2.png"}
+	if (tCC1.value =="2"&& tCC2.value=='6'&& tCC3.value== '7') {
+		SCtitlePic.src="./eeg/eeg1.png"}
+		if(tCC1.value=='4'&&tCC2.value=='5'&&tCC3.value=='9'){ 
+		SCtitlePic.src="./eeg/eeg5.png"}
 });
 
 gameEnd.addEventListener('click',()=>{
@@ -15,6 +25,7 @@ parseInt(ccR1.value)+parseInt(ccR2.value)+parseInt(ccR3.value)-parseInt(Roads.va
 parseInt(kaiju.value)+parseInt(Constr.value)
 
 playerGraded.value=parseInt(playerTotal.value)/parseInt(targetScore.value)*100;
+
 });
 
 newGame.addEventListener('click',()=>{

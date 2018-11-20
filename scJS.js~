@@ -7,6 +7,12 @@ const randiRule= document.getElementById("randiRules");
 //action center
 findTarget.addEventListener('click', ()=>{
 	targetScore.value= parseInt(tCC1.value) + parseInt(tCC2.value) + parseInt(tCC3.value)
+	if (tCC1.value =="18" && tCC2.value =="16" && tCC3.value == "17") {
+		SCtitlePic.src="./eeg/eeg4.jpg"}
+	if (tCC1.value =="8"&& tCC2.value =="3"&& tCC3.value =="2") {
+		SCtitlePic.src="./eeg/eeg3.png"}
+	if (tCC1.value == "2" && tCC2.value=="9"&& tcc3.VALUE =="1") {
+		SCtitlePic.src="./eeg/eeg2.png"}	
 });
 
 gameEnd.addEventListener('click',()=>{
@@ -15,6 +21,7 @@ parseInt(ccR1.value)+parseInt(ccR2.value)+parseInt(ccR3.value)-parseInt(Roads.va
 parseInt(kaiju.value)+parseInt(Constr.value)
 
 playerGraded.value=parseInt(playerTotal.value)/parseInt(targetScore.value)*100;
+
 });
 
 newGame.addEventListener('click',()=>{
@@ -39,4 +46,7 @@ playerGraded.value="0";
 
 randiRule.addEventListener('click',()=>{
 	tCC1.value= parseInt(Math.random()*(18-1)+1);
+	tCC2.value =parseInt(Math.random()*(18-1)+1);
+	tCC3.value=parseInt(Math.random()*(18-1)+1);
+	targetScore.value = parseInt(tCC1.value)+parseInt(tCC2.value)+parseInt(tCC3.value);
 });
