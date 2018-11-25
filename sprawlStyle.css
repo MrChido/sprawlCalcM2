@@ -52,3 +52,8 @@ font-size: 18px;}
 label{
 	font-size: 18px;
 color: #08e8de;}
+/*mobile adaption protocol*/
+@media(max-width:400px){
+
+	
+}
