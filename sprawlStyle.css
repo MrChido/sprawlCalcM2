@@ -1,17 +1,17 @@
 #resVal{
-color: rgb(184,122,93);
+color: #df9121;
 }
 
 #indVal{
-color:rgb(119,112,101);
+color:#8f9e97;
 }
 
 #comVal{
-color:rgb(130,172,213);
+color:#1fc2f2;
 }
 
 #recVal{
-color: rgb(149,164,88)
+color:#6db40f;
 }
 
 #SCtitlePic{
@@ -52,8 +52,15 @@ font-size: 18px;}
 label{
 	font-size: 18px;
 color: #08e8de;}
-/*mobile adaption protocol*/
-@media(max-width:400px){
 
-	
+.condition{
+	color:#ded83d;
+}
+
+/*mobile adaption protocols*/
+@media(max-width:430px){
+p{
+font-size: 20px;
+}
+
 }
