@@ -54,13 +54,13 @@ randiRule.addEventListener('click',()=>{
 	tCC3.value=parseInt(Math.random()*(18-1)+1);
 //dupication catching	
 	if(tCC1.value == tCC2.value || tCC3.value){
-	tCC1.value=parseInt(Math.random()*(18-1)+2);}
+	tCC1.value=parseInt(tCC1.value)+1;}
 	
 	if(tCC2.value == tCC1.value || tCC3.value){
-	tCC2.value=parseInt(Math.random()*(18-1)+2);}
+	tCC2.value=parseInt(tCC2.value)+1;}
 	
 	if(tCC3.value == tCC2.value || tCC1.value){
-	tCC3.value=parseInt(Math.random()*(18-1)+2);}
+	tCC3.value=parseInt(tCC3.value)+1;}
 	
 	targetScore.value = parseInt(tCC1.value)+parseInt(tCC2.value)+parseInt(tCC3.value);
 });
