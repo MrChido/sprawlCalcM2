@@ -7,7 +7,6 @@ const randiRule= document.getElementById("randiRules");
 //action center
 findTarget.addEventListener('click', ()=>{
 	targetScore.value= parseInt(tCC1.value) + parseInt(tCC2.value) + parseInt(tCC3.value)
-//the Yugioh cards used in these easter eggs are property of Konami. I just inserted them for giggles.
 	if (tCC1.value =="18" && tCC2.value =="16" && tCC3.value == "17") {
 		SCtitlePic.src="./eeg/eeg4.jpg"}
 	if (tCC1.value =="8"&& tCC2.value =="3"&& tCC3.value =="2") {
@@ -53,5 +52,15 @@ randiRule.addEventListener('click',()=>{
 	tCC1.value= parseInt(Math.random()*(18-1)+1);
 	tCC2.value =parseInt(Math.random()*(18-1)+1);
 	tCC3.value=parseInt(Math.random()*(18-1)+1);
+//dupication catching	
+	if(tCC1.value == tCC2.value || tCC3.value){
+	tCC1.value=parseInt(Math.random()*(18-1)+2);}
+	
+	if(tCC2.value == tCC1.value || tCC3.value){
+	tCC2.value=parseInt(Math.random()*(18-1)+2);}
+	
+	if(tCC3.value == tCC2.value || tCC1.value){
+	tCC3.value=parseInt(Math.random()*(18-1)+2);}
+	
 	targetScore.value = parseInt(tCC1.value)+parseInt(tCC2.value)+parseInt(tCC3.value);
 });
