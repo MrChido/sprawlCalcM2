@@ -4,6 +4,7 @@
 <meta name="Viewport"content="width=device-width, initial-scale=1" charset="utf-8" />
 <title>SprawlCalcM2</title>
 <link rel="Stylesheet" href="./sprawlStyle.css">
+<link rel="icon" href="./1000birdsSC.ico">
 </head>
 <body>
 <img src="./sC.jpg" alt="Sprawlopolis Calculator"id="SCtitlePic">
@@ -26,13 +27,13 @@
 <h2>Player(s) Score</h2>
 <p>To be performed at end of game</p>
 <h3>Zoning Values</h3>
-<label for="resVal">Residential</label>
+<label for="resVal"id="rt">Residential</label>
 <input type="number" name="resVal" id="resVal">
-<br><label for="indVal">Industrial</label>
+<br><label for="indVal" id="it">Industrial</label>
 <input type="number" name="Industrial" id="indVal">
-<br><label for="comVal">Commercial</label>
+<br><label for="comVal" id="ct">Commercial</label>
 <input type="number" name="comercial" id="comVal">
-<br><label for="recVal">Recreational</label>
+<br><label for="recVal"id="et">Recreational</label>
 <input type="number" name="recreation" id="recVal" >
 </div>
 <div>
@@ -57,8 +58,8 @@
 </div>
 <div>
 <button name="eGame" value="Evaluate Game" id="eGame">Evaluate Game</button>
-<br><input type="number" name="playerTotal" id="playerTotal">
- <br><label for="playerGraded">Completion % </label><input type="number" name="graded" id="playerGraded"> 
+<br><input type="number" name="playerTotal" id="playerTotal" readonly="">
+ <br><label for="playerGraded">Completion % </label><input type="number" name="graded" id="playerGraded" readonly=""> 
 <br><button name="reset" value="Reset Values" type="reset" id="nG">New Game</button>
 </div>
 <br>
