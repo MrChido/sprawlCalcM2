@@ -3,7 +3,8 @@ const findTarget= document.getElementById("findTarget");
 const gameEnd=document.getElementById("eGame");
 const newGame= document.getElementById("nG");
 const randiRule= document.getElementById("randiRules");
-
+const easymode= document.getElementById("easy")
+;
 //action center
 findTarget.addEventListener('click', ()=>{
 	targetScore.value= parseInt(tCC1.value) + parseInt(tCC2.value) + parseInt(tCC3.value)
@@ -17,6 +18,10 @@ findTarget.addEventListener('click', ()=>{
 		SCtitlePic.src="./eeg/eeg1.png"}
 		if(tCC1.value=='4'&&tCC2.value=='5'&&tCC3.value=='9'){ 
 		SCtitlePic.src="./eeg/eeg5.png"}
+});
+
+easymode.addEventListener('click',()=>{
+Roads.value= "0";
 });
 
 gameEnd.addEventListener('click',()=>{
